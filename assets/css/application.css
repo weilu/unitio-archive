@@ -1,0 +1,71 @@
+body {
+  color: #333;
+  font-family: 'Galdeano', sans-serif;
+}
+
+h1 {
+  font-family: 'Capriola', sans-serif;
+  position: relative;
+  font-size: 76px;
+  text-transform: uppercase;
+  text-align: center;
+  height: 80px;
+  margin: 50px auto;
+}
+
+h2 {
+  font-family: 'Galdeano', sans-serif;
+  position: relative;
+  top: 10px;
+  font-size: 22px;
+  text-align: center;
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  padding: 22px 0;
+}
+
+h3 {
+  font-family:  sans-serif;
+  margin-bottom: 5px;
+}
+
+a, a:visited {
+  color: #333;
+}
+
+#header {
+  text-align: center;
+}
+
+#wrap {
+  margin: 0 auto;
+  min-width: 920px;
+  max-width: 1200px;
+  padding: 20px 40px 0 40px;
+}
+
+#nav {
+  margin-top: 80px;
+}
+
+ul#nav li.grid_4 {
+  width: 22%;
+  margin-right: 3%;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+ul#nav li:last-child {
+  margin-right: 0;
+}
+
+#main {
+  min-height: 100px;
+}
+
+#footer {
+  margin-top: 50px;
+  text-align: center;
+  color: grey;
+}
